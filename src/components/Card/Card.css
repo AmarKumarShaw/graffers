@@ -1,0 +1,27 @@
+.cards{
+    padding:4rem 1.5rem;
+    display:grid;
+    grid-template-rows: auto;
+    /* grid-template-columns: repeat(3,auto); */
+    grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
+    grid-gap:3rem;
+    width:100%;
+}
+.card-content{
+    height:250px;
+    width:350px;
+    background-color: lightgray;
+    display:flex;
+    flex-direction:column;
+    padding:0.1rem 1rem;
+}
+
+.card-heading h1{
+    font-size:1.7rem;
+    font-weight: 600;
+}
+.card-info p{
+    font-size: 1.2rem;
+    font-weight: 350;
+    line-height:0.6rem;
+}
