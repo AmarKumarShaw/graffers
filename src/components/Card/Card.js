@@ -1,11 +1,14 @@
 import React from 'react'
 import "./Card.css"
-
+import Cards from '../Cards/Cards'
 
 const Card = () => {
     return (
         <div className="cards">
-            <div className="card-content">
+
+            <Cards />
+
+            {/* <div className="card-content">
                 <div className="card-heading">
                     <h1>Name:Amar Kumar Shaw</h1>
                 </div>
@@ -115,7 +118,7 @@ const Card = () => {
 
                 </div>
 
-            </div>
+            </div> */}
             
         </div>
     )

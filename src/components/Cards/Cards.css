@@ -1,12 +1,3 @@
-.cards{
-    padding:4rem 1.5rem;
-    display:grid;
-    /* grid-template-columns: repeat(3,auto); */
-    grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
-    grid-template-rows: auto;
-    grid-gap:3rem;
-    width:100%;
-}
 .card-content{
     height:250px;
     width:350px;
